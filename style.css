@@ -1,0 +1,134 @@
+html *{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.modalcenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 333;
+}
+
+.footer-disclaimer {
+	font-size: 12px;
+}
+
+.chapter .col{
+	padding: 1;
+}
+
+.chapter-image {
+	display: flex;
+	align-items: center;
+	width: 100px;
+	background-color: #212121;
+}
+
+.chapter-image2 {
+	display: flex;
+	align-items: center;
+	width: 155px;
+	background-color: #212121;
+}
+
+.card .small-content {
+	padding: 5px;
+}
+
+.card .small-content a h6 {
+	margin-top: 5px;
+}
+
+.card-small .chapter-small img {
+	width: 200px;
+}
+
+.side-list .collection {
+	border: 0px;
+}
+
+.side-list .collection .collection-item {
+	background: #212121;
+	border-color: black;
+	padding: 7px;
+}
+
+.side-table {
+	background: black;
+}
+
+.genre {
+	border-collapse: unset;
+}
+
+.chip {
+	font-size: unset;
+	font-weight: 400;
+	color: #000c;
+	background-color: #E2DB29;
+}
+
+.username {
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.account-table {
+	border-collapse: unset;
+}
+
+.manga-info {
+	padding-top: 0 !important;
+	padding-bottom: 0px !important;
+}
+
+.chips td {
+	padding: 5px;
+}
+
+.pagination li.active {
+	background-color: #E2DB29;
+}
+
+.carousel {
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.top-week {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.user-card {
+	padding-bottom: 1px;
+}
+
+.tab-active {
+	background-color: #E2DB29;
+}
+
+.tabs .tab a {
+	color: white;
+	font-weight: bold;
+}
+
+.edit-profile {
+	margin-top: 20px;
+}
+
+.name-hover:hover {
+	color: #E2DB29 !important;
+	font-weight: 500;
+}
